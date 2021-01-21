@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+		<title>Programming Practical</title>
+		<link rel="stylesheet" href="styles.css">
+		<link rel="stylesheet" href="styles_next.css">
+	</head>
+	<body>
+		<img src="logo.png" class="img-fluid" alt="Responsive image" id="logo">
+		<div class="parallax"></div>
+
+<nav class="navbar sticky-top navbar-inverse" style="position:fixed;top:0;width:100%">
+
+  <div class="container-fluid">
+
+    <ul class="nav navbar-nav">
+
+      <li><a href="index.html">Home</a></li>
+      <li><a href="chirp.html">What is CHIRP?</a></li>
+      <li><a href="blackholes.html">What are black holes?</a></li>
+      <li class="active"><a href="next.html">What's Next?</a></li>
+    </ul>
+	<img src="logo.png" id="logo">
+  </div>
+</nav>
+		<h1><b>The Future of Astronomy</b></h1>
+		<br>
+		<p>Astronomy is a constantly changing field, needing the latest advances in computing technology to push our understanding of the Universe further. Here are some insights into overlooked aspects of astronomy, and how Computer Science could help them.</p>
+		<br>
+		<hr>
+		<h3>Size Matters</h3>
+		<br>
+		<div class="content_block">
+			<img src="array.png" alt="Half of the telescopes used" class="img" style="float:left"></img>
+			<p>In order to take a picture of a black hole, a <b>huge</b> telescope is needed. How huge? In order to take the M87 picture, a "telescope" the size of Earth was used. Just how is that possible?
+			It wasn't a single telescope being used, it was an array of them - the Event Horizon Telescope is, in fact, many different observatories linked together.
+			Multiple telescopes are pointed at the same place in the sky, aligned such that they all collect light from the same point. Then, algorithms such as CHIRP, BSMEM and CLEAN are used to collate and clean up the images received.
+			Languages such as AIPS++/CASA (a programming language similar to C++) are used for this industrial scale of image processing.
+			Having multiple telescopes capturing image data constantly requires state of the art algorithms to efficiently process this petabyte-scale of data.
+			</p>
+			<br>
+			<a href="http://inspirehep.net/record/1679827/plots">Image source: INSPIRE HEP</a>
+		</div>
+		<br>
+		<hr>
+		<br>
+		<h3>Sneakernet</h3>
+		<br>
+		<div class="content_block">
+			<img src="hard_drives.jpg" alt="The sheer amount of data needed" class="img" style="float:left"></img>
+			<p>The sheer amount of data collected by telescope arrays is immense, generally in the petabyte range. To move this amount of data takes more than a fiber-optic cable - the data needs to physically be moved!
+			A so-called "sneakernet" is used to transport whole disk drives. The drives are removed, packaged, and physically shipped via FedEx to other institutes to clean up the images.
+			Transferring this amount of data over the internet is just not feasable - even at a very fast 100 MB/s internet, transferring a single petabyte of data would take over a third of a year.
+			As advancements in networks and data transfer are looked into, hopefully this overlooked part of astronomical discovery will be updated in the future. But for now, we're stuck with hauling hard drives around!
+			</p>
+			<a href="https://www.theatlantic.com/science/archive/2019/04/black-hole-hard-disks-picture/587119/">Image source: The Atlantic</a>
+		</div>
+		<br>
+		<hr>
+		<br>
+		<h3>Further Reading</h3>
+		<br>
+		<div class="content_block">
+			<p>The <a href=https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Bouman_Computational_Imaging_for_CVPR_2016_paper.pdf>CHIRP Algorithm paper</a> is an interesting read for anyone who wants to know the inner workings of this algorithm.</p>
+			<p>The <a href=https://eventhorizontelescope.org/>Event Horizon Telescope</a> website explains just how each telescope collaborates with each other.</p>
+		</div>
+		<br>
+		<hr>
+		<br>
+		<h4>Author Info</h4>
+		<br>
+		<h1>Jack Udale<br><br>
+	</body>
+</html>

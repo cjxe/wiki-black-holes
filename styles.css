@@ -1,0 +1,61 @@
+#logo {
+		display:block;
+		margin-left:auto;
+		position: sticky;
+		width:180px;
+		top: 0px;
+		
+}
+body {
+		background-color: #333333;
+	
+}
+.sticky {
+  position: fixed;
+  top: 0;
+ 
+}
+
+p{
+	font-family: Verdana, sans-serif;
+	display: block;
+	text-align: left;
+	max-width: 800px;
+	margin: auto;
+	color: #CCDDCC;
+}
+
+.carousel {
+  top:100px;
+  width:640px;
+  height:360px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+
+.parallax {
+  /* Set a specific height */
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.navbar-brand,
+.navbar-nav a {
+  font-family: Verdana, Geneva, sans-serif;
+  position:fixed;
+}
+
+}
+#f{
+	font-family: Verdana, sans-serif;
+	display: block;
+	text-align: left;
+	max-width: 800px;
+	margin: auto;
+	color: #FFFF00;
+}

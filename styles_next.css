@@ -1,0 +1,56 @@
+.navbar{
+	z-index: 10000;
+}
+h1{
+	font-family: Verdana, sans-serif;
+	text-align: center;
+	color: #DDBB44;
+}
+p{
+	font-family: Verdana, sans-serif;
+	display: block;
+	text-align: left;
+	max-width: 800px;
+	margin: auto;
+	color: #CCDDCC;
+}
+h2{
+	font-family: Verdana, sans-serif;
+	display: block;
+	text-align: left;
+	max-width: 800px;
+	margin: auto;
+	color: #FFFF00;
+}
+h3{
+	font-family: Verdana, sans-serif;
+	display: block;
+	text-align: center;
+	max-width: 800px;
+	margin: auto;
+	color: #FFCC55;
+}
+h4{
+	font-family: Verdana, sans-serif;
+	display: block;
+	max-width: 800px;
+	margin: auto;
+	color: #FFCC55;
+}
+.content_block{
+	max-width: 800px;
+	margin: auto;
+}
+hr{
+	width: 50%;
+}
+.img{
+	display: flex;
+	max-width: 400px;
+	max-height:auto;
+	margin-right: 15px;
+	margin-left: auto;  
+}
+.leftalign{
+	float: left;
+}
